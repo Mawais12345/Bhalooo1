@@ -1,5 +1,5 @@
 const canvas = document.getElementById("gameCanvas");
-const ctx = canvas.getContext(" "2d");
+const ctx = canvas.getContext("2d");
 
 let level = 1;
 const totalLevels = 15;
@@ -28,7 +28,7 @@ function nextLevel() {
     goal.x = Math.random() * 300 + 50;
     goal.y = Math.random() * 300 + 50;
   } else {
-    alert("Bhaloooo asks: Will you marry me?\nAwaissss replies: Only if I get to bite your cheeks and kiss them every dayy 👀✨💗🫂");
+    alert("Bhaloooo asks: Will you marry me?\\nAwaissss replies: Only if I get to bite your cheeks and kiss them every dayy 👀✨💗🫂");
   }
 }
 
