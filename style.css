@@ -1,0 +1,16 @@
+
+body {
+  font-family: sans-serif;
+  background-color: #ffe6f0;
+  text-align: center;
+}
+#game-area {
+  margin-top: 20px;
+}
+#controls button {
+  font-size: 24px;
+  margin: 5px;
+}
+.hidden {
+  display: none;
+}

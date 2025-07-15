@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Love Park - Bhaloooo & Awaissss</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>❤️ Love Park: Bhaloooo's Journey ❤️</h1>
+  <div id="game-area">
+    <canvas id="gameCanvas"></canvas>
+    <div id="controls">
+      <button id="up">↑</button>
+      <button id="left">←</button>
+      <button id="down">↓</button>
+      <button id="right">→</button>
+    </div>
+    <div id="dialogue" class="hidden">
+      <p id="question">What will you do?</p>
+      <button class="choice" onclick="checkAnswer('kiss')">Kiss on forehead 💋</button>
+      <button class="choice" onclick="checkAnswer('hug')">Hug tightly 🤗</button>
+      <button class="choice" onclick="wrongAnswer()">Ignore him 😼</button>
+    </div>
+  </div>
+  <audio id="bgMusic" loop autoplay src="bg-music.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
